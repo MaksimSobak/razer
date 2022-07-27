@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 61px;
+    background-color: #000;
+    border-bottom: 1px solid lime;
+    position: sticky;
+}
+.display_btns{
+    width: 88.5%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 3%;
+    height: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logo img{
+    width: 4%;
+    height: 80%;
+} */
+
+.links{
+    width: 96%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.menu li{
+    padding: 33px;
+}
+.menu li a{
+    color: gray;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.menu li a:hover{
+    color: white;
+}
+main{
+    width: 100%;
+    height: 3914px;
+    border: 1px solid black; 
+}
+.discount_for{
+    width: 100%;
+    height: 44px;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.discount_for a{
+    text-decoration: none;
+    color: white;
+}
+.discount_for a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    height: 372px;
+    border: 1px solid black;
+}
+.new_trend_products{
+    width: 100%;
+    height: 2130px;
+    /* background-color: black; */
+}
+.razer_keyboards{
+    width: 100%;
+    height: 710px;
+    background-image: url(/images/deathstalkerpro-homepage-large.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234)
+}
+.razer_laptops{
+    width: 100%;
+    height: 710px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234);
+    background-image: url(/images/razer-blade14-2022-homepage-desktop.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+.razer_headphones{
+    width: 100%;
+    height: 710px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.234);
+    background-image: url(/images/bape-homepage-desktop.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+.name_of_products{
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.name_of_products span p{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.links_cources{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+.links_cources:hover{
+    text-decoration: underline;
+}
